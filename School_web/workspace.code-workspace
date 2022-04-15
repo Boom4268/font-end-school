@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\Unity\\Game2DSence"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\f8-learn-web"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "D:"
+	}
+}

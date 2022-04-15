@@ -1,0 +1,63 @@
+:root{
+    --color1: #f6f9ff;
+    --color2: #4154f1;
+    --color3: #012970;
+    --text-color: #646464;
+    --color4: #ff0071;
+    --color5: #b0e27c;
+    --color6: #ff9323;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+}
+h1, h2, h3, h4{
+    color: var(--color3);
+}
+
+i{
+    color: var(--color2);
+}
+p{
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+.text4{
+    color:var(--color4);
+}
+
+.text5{
+    color:var(--color5);
+}
+
+.text6{
+    color:var(--color6);
+}
+
+section{
+    padding: 30px 0 20px 0;
+}
+
+section h2{
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+
+@media(max-width: 768px) and (min-width: 480px){
+    .major-img img{
+        height: 280px;
+    }
+}
+
+@media(max-width: 480px){
+    .major-img img{
+        height: 240px;
+    }
+}
